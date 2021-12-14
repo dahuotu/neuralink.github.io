@@ -48,8 +48,8 @@
       repo: "neuralink.github.io",
       owner: "dahuotu",
       admin: ["dahuotu"],
-      // title: location.hash.match(/#(.*?)([?]|$)/)[1],
-      // id: location.hash.match(/#(.*?)([?]|$)/)[1],
+      title: window.location.hash.match(/#(.*?)([?]|$)/)[1],
+      id: decodeURI(window.location.pathname),
       distractionFreeMode: false,
     });
     window.onhashchange = function (event) {

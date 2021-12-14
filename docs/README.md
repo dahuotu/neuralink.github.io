@@ -1,3 +1,19 @@
-# Neuralink.wiki
+### 脑机接口是什么？
 
-> Neuralink.wiki
+脑机接口（英语：`brain-computer interface`，简称`BCI`；有时也称作`direct neural interface`或者`brain-machine interface`），是在 `人`或`动物`大脑（或者脑细胞的培养物）与外部设备间建立的直接连接通路。
+
+### 脑机接口的原理
+
+### 脑机接口范式
+
+### 脑机接口的种类
+
+#### 非侵入式
+
+#### 半侵入式
+
+#### 侵入式
+
+### 由你补充
+
+> 以上资料源自互联网，如有不同看法或补充可自行提交修改

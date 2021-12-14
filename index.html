@@ -8,17 +8,18 @@
   <meta name="keywords" content="马斯克,脑机,脑机技术,脑机接口,脑科学,BCI,Neuralink,记忆提取,ALS患者,元宇宙,NFT,虚拟现实,VR,AR,残疾人创业项目" />
   <meta name="description" content="一个专注脑机接口相关知识分享的Neuralink Wiki" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" />
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css" />
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
 </head>
 
 <body>
-  <div id="app"></div>
+  <div id="app">正在猛烈加载中...</div>
   <div id="gitalk-container"></div>
   <script>
     window.$docsify = {
       name: "脑机技术",
-      repo: "",
+      logo: '/assets/logo.jpg',
+      repo: "https://github.com/dahuotu/neuralink.github.io.git",
       loadNavbar: true,
       loadSidebar: true,
       subMaxLevel: 4,
@@ -34,6 +35,7 @@
         noData: "找不到结果",
         depth: 4,
       },
+      plugins: []
     };
   </script>
   <!-- Docsify v4 -->
